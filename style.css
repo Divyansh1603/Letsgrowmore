@@ -1,0 +1,99 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #FFE5B4;
+  }
+  
+  .container {
+    width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #FFDAB9;
+    border: 1px solid #FF6347;
+    border-radius: 5px;
+  }
+  
+  .input-container {
+    display: flex;
+    margin-bottom: 10px;
+  }
+  
+  .input-field {
+    flex-grow: 1;
+    padding: 5px;
+  }
+  
+  .add-btn {
+    margin-left: 10px;
+    padding: 5px 10px;
+    background-color: #FF4500;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .todo-item {
+    margin-bottom: 5px;
+    padding: 10px;
+    background-color: #FFDAB9;
+    border: 1px solid #FF6347;
+    border-radius: 5px;
+    position: relative;
+  }
+  
+  .todo-item.completed {
+    background-color: #FFFAF0;
+    color: #808080;
+    text-decoration: line-through;
+  }
+  
+  .todo-item.high-priority {
+    background-color: #FF7F50;
+  }
+  
+  .todo-item.medium-priority {
+    background-color: #FFA07A;
+  }
+  
+  .todo-item.low-priority {
+    background-color: #FFDAB9;
+  }
+  
+  .task-item-container {
+    position: relative;
+  }
+  
+  .task-time {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    color: #808080;
+    font-weight: bold;
+  }
+  
+  .delete-btn {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    background-color: #FF4500;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 5px 10px;
+  }
+
+  /* ... Existing styles ... */
+
+.delete-btn-container {
+    text-align: center;
+    margin-top: 10px;
+  }
+  
+  .delete-btn {
+    background-color: #FF4500;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 5px 10px;
+  }
+  
